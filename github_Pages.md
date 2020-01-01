@@ -1,6 +1,6 @@
 # 如何使用 GitHub Pages 预览 HTML
 
-#### 建立一个仓库
+### 建立一个仓库
 
 首先，需要建立一个仓库，并命名为 `username.github.io`，比如 `littlematch0123.github.io`
 
