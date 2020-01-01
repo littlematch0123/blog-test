@@ -1,10 +1,10 @@
 # 如何使用 GitHub Pages 预览 HTML
 
-## 建立一个仓库
+#### 建立一个仓库
 
 首先，需要建立一个仓库，并命名为 `username.github.io`，比如 `littlematch0123.github.io`
 
-## 克隆这个仓库
+### 克隆这个仓库
 
 然后，在本地找一个目录用于存储这个项目，使用下列代码来克隆
 
@@ -12,7 +12,7 @@
 git clone littlematch0123.github.io
 ```
 
-## 编辑 index.html 文件
+### 编辑 index.html 文件
 
 进入该目录后，编辑 index.html 文件，并将其内容设置为 'hello world'
 
