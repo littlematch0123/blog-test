@@ -20,16 +20,18 @@
 
 动画由许多静止的画面 (帧)，以一定的速度(如每秒30张) 连续播放时，肉眼因视觉残象产生错觉，而误以为是活动的画面
 
-CSS动画有两种实现方式： transform + transition 和 animation
+CSS动画有两种实现方式： transition 和 animation
 
-#### transform
+#### transition
 
-CSS变形transform是一些效果的集合，主要是移动、旋转、缩放和倾斜这四种基本操作，还可以通过设置matrix矩阵来实现更复杂的效果。变形transform可以实现2D和3D两种效果。2D变形涉及的属性主要有transform变形函数和transform-origin变形原点
+过渡transition是一个复合属性，包括transition-property、transition-duration、transition-timing-function、transition-delay这四个子属性。通过这四个子属性的配合来完成一个完整的过渡效果
 
 ```
-<transform-function>: translate | scale | rotate | skew | matrix
+transition-property: 过渡属性(默认值为all)
+transition-duration: 过渡持续时间(默认值为0s)
+transiton-timing-function: 过渡函数(默认值为ease函数)
+transition-delay: 过渡延迟时间(默认值为0s)
 ```
-
 #### animation
 
 animation 是通过关键帧 @keyframes 来实现更为复杂的动画效果
